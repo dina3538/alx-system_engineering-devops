@@ -1,2 +1,2 @@
 #!/bin/bash
-file . -empty -printf '%f\n'
+file . -type d  -empty -printf "%f\n" -o -type f -empty -printf "%f\n"
